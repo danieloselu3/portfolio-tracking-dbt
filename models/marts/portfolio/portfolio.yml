@@ -15,3 +15,9 @@ models:
           - unique
           - has_default_key
           - warn_on_multiple_default_key
+  - name: DIM_EXCHANGE
+    columns:
+      - name: EXCHANGE_HKEY
+        tests:
+          - not_null
+          - unique
